@@ -6,10 +6,6 @@
 	function setNo() { content = "No"; }
 </script>
 
-<svelte:head>
-    <link href="/simplex.min.css" rel="stylesheet">
-</svelte:head>
-
 <h1 class="display-1 text-center">Am I a Submarine?</h1>
 
 <div class="container">
