@@ -1,6 +1,5 @@
 <script>
 	let content = "Starter";
-
 	function setStarter() { content = "Starter"; }
 	function setQuestion() { content = "Question"; }
 	function setYes() { content = "Yes"; }
@@ -29,7 +28,7 @@
 				</div>
 		{:else if content == "Yes"}
 				<h2 class="display-5 fw-bold text-center">Yes you are a Submarine!</h2>
-				<img class="mx-auto d-block" src="/favicon.png" alt="Yellow Submarine">
+				<img class="img-fluid mx-auto d-block" src="/favicon.png" alt="Yellow Submarine">
 				<p class="text-center fs-4">Our panel has decided that yes, you're definitely a submarine.</p>
 				<div class="d-grid gap-2 col-6 mx-auto">
 					<button class="btn btn-link btn-lg" type="button" on:click={setStarter}>Home</button>
